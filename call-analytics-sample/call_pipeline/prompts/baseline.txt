@@ -1,0 +1,8 @@
+Label this customer-service call using the supplied taxonomy.
+Identify the customer's primary and secondary intent, the call outcome,
+qualification status, objection, sentiment, urgency, knowledge-base usefulness,
+and the most important compliance flag. Use secondary_intent=none if there is
+no second clear intent. Confidence is your estimate from 0 to 1.
+Write a short note explaining the labels. Do not include personal information.
+Use the customer's wording for sentiment, not the agent's wording.
+

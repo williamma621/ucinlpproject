@@ -1,0 +1,23 @@
+Classify only supported facts. Separate intent from outcome. Do not infer
+eligibility. Prioritize explicit stop-contact requests. Use unknown when timing
+is absent and neutral when customer wording has no clear emotional signal.
+Confidence is a subjective estimate. Write short notes without personal data.
+These development examples are separate from the evaluation calls:
+
+Customer: Can someone explain your fees?
+Agent: Fees depend on the case; a specialist can explain them after review.
+Customer: Thanks, that answers my question.
+Decision: primary_intent=pricing; call_outcome=information_provided;
+customer_sentiment=positive; compliance_flag=none. No consultation was agreed.
+
+Customer: I need help with tax debt.
+Agent: Would Tuesday afternoon work for a consultation?
+Customer: I need to check my schedule. Call me next week.
+Decision: primary_intent=tax_debt_help; call_outcome=follow_up_needed;
+urgency=unknown. An offered appointment is not a booked appointment.
+
+Customer: Please stop calling. I have said no twice.
+Agent: Understood. I will record your request.
+Decision: primary_intent=do_not_contact; call_outcome=do_not_contact;
+compliance_flag=do_not_contact_request.
+

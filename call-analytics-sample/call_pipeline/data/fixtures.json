@@ -1,0 +1,264 @@
+{
+  "provenance": "Hand-authored fixtures, not Gemini responses. Two intentional mistakes exercise evaluation.",
+  "model": "hand-authored-fixtures",
+  "prompt": "explicit",
+  "prompt_hash": "8523775c0524d51e56cc83377b2ae4fccf2d563d0cd8d89f8f5cc831a4661f88",
+  "responses": {
+    "call_001": {
+      "redacted_sha256": "ed503cb9030ca4c133b64020de4dc4ececd055c696b87bf6f65303f5032e024c",
+      "labels": {
+        "primary_intent": "tax_debt_help",
+        "call_outcome": "consultation_scheduled",
+        "customer_sentiment": "positive",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "needs_review",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_002": {
+      "redacted_sha256": "02098f84767522fa34d4df5b8044575e10eab5343ab9f581bdcfa302cd1b61d1",
+      "labels": {
+        "primary_intent": "pricing",
+        "call_outcome": "information_provided",
+        "customer_sentiment": "anxious",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "not_applicable",
+        "objection_type": "price_concern",
+        "urgency": "unknown",
+        "kb_usefulness": "useful",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_003": {
+      "redacted_sha256": "445b8897ddd9c26cebd29dcee0ca456c9a9e45f0da1cf14ff52e65ced27adad8",
+      "labels": {
+        "primary_intent": "legitimacy",
+        "call_outcome": "follow_up_needed",
+        "customer_sentiment": "negative",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "not_applicable",
+        "objection_type": "legitimacy_concern",
+        "urgency": "unknown",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_004": {
+      "redacted_sha256": "eafadad9d139ea91105d44d98dcf5b0e64e52fb127a58802ba846c6894b75d93",
+      "labels": {
+        "primary_intent": "do_not_contact",
+        "call_outcome": "do_not_contact",
+        "customer_sentiment": "angry",
+        "compliance_flag": "do_not_contact_request",
+        "secondary_intent": "none",
+        "qualification_status": "not_applicable",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "not_useful",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_005": {
+      "redacted_sha256": "7332adc903064e64ef1ebb1f8a1f5de24fa32484158cd849c5b1ebb37921ac59",
+      "labels": {
+        "primary_intent": "wrong_number",
+        "call_outcome": "wrong_number",
+        "customer_sentiment": "neutral",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "not_applicable",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "not_useful",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_006": {
+      "redacted_sha256": "04c54edc018833cd39d760e06532cb0377dd79c0eaf7a41b912568faa5082109",
+      "labels": {
+        "primary_intent": "case_status",
+        "call_outcome": "follow_up_needed",
+        "customer_sentiment": "neutral",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "existing_customer",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_007": {
+      "redacted_sha256": "11fb40d69cc83428bc5fb323ac7e916940e0d5a7989f46867431028ea7783a76",
+      "labels": {
+        "primary_intent": "tax_debt_help",
+        "call_outcome": "follow_up_needed",
+        "customer_sentiment": "anxious",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "needs_review",
+        "objection_type": "none",
+        "urgency": "high",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_008": {
+      "redacted_sha256": "1f2abef537131b246abdd13a5ff0508ad73370a7dab335b32ce825222bebeaf1",
+      "labels": {
+        "primary_intent": "tax_debt_help",
+        "call_outcome": "declined",
+        "customer_sentiment": "neutral",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "not_applicable",
+        "objection_type": "already_resolved",
+        "urgency": "unknown",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_009": {
+      "redacted_sha256": "470a1398285784cc488dc60bfdb8f894ad404f32bc54398ec2741104586abe36",
+      "labels": {
+        "primary_intent": "tax_debt_help",
+        "call_outcome": "follow_up_needed",
+        "customer_sentiment": "neutral",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "needs_review",
+        "objection_type": "privacy_concern",
+        "urgency": "low",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_010": {
+      "redacted_sha256": "30334903eef7243a391ffa2329771832536052a44c74826d5d53078c8fcb8a1a",
+      "labels": {
+        "primary_intent": "unknown",
+        "call_outcome": "unresolved",
+        "customer_sentiment": "neutral",
+        "compliance_flag": "bad_audio",
+        "secondary_intent": "none",
+        "qualification_status": "unknown",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "not_useful",
+        "confidence": 0.2,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_011": {
+      "redacted_sha256": "a31750de7af5d6190c52ae3d990a2d5a2244312d7de97510172e2c0bbf2d5aca",
+      "labels": {
+        "primary_intent": "tax_debt_help",
+        "call_outcome": "follow_up_needed",
+        "customer_sentiment": "positive",
+        "compliance_flag": "promise_or_guarantee",
+        "secondary_intent": "none",
+        "qualification_status": "needs_review",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_012": {
+      "redacted_sha256": "2a805c84bb3b43755f6254f286fdc73619b029b5580aa0f1e230c043bfd31e7d",
+      "labels": {
+        "primary_intent": "tax_debt_help",
+        "call_outcome": "information_provided",
+        "customer_sentiment": "confused",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "needs_review",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "useful",
+        "confidence": 0.85,
+        "labeling_notes": "Authored mismatch: weights the initial confusion over the final resolution."
+      }
+    },
+    "call_013": {
+      "redacted_sha256": "64b1f8202299c9c3fec832ce0fee7c94541c0d62506cdbdf9361a5c3b20077c0",
+      "labels": {
+        "primary_intent": "tax_debt_help",
+        "call_outcome": "follow_up_needed",
+        "customer_sentiment": "neutral",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "needs_review",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_014": {
+      "redacted_sha256": "6a6606f04826f9bf536a629ca3a3f53455c4d934f3d34ee12b1671cf5184ca39",
+      "labels": {
+        "primary_intent": "do_not_contact",
+        "call_outcome": "do_not_contact",
+        "customer_sentiment": "negative",
+        "compliance_flag": "do_not_contact_request",
+        "secondary_intent": "pricing",
+        "qualification_status": "not_applicable",
+        "objection_type": "not_interested",
+        "urgency": "unknown",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_015": {
+      "redacted_sha256": "30b7265e2cefc0b4b5fce35bf4e4edf4c705a5a8833796c5cc45c19bb2263599",
+      "labels": {
+        "primary_intent": "tax_debt_help",
+        "call_outcome": "follow_up_needed",
+        "customer_sentiment": "neutral",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "needs_review",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Fictional example prepared for the offline pipeline demo."
+      }
+    },
+    "call_016": {
+      "redacted_sha256": "f4b3dce0ec7f8caa13ebdfa4ed721d1f73d3f9f8c8d88214f89fd167305b662e",
+      "labels": {
+        "primary_intent": "tax_debt_help",
+        "call_outcome": "consultation_scheduled",
+        "customer_sentiment": "neutral",
+        "compliance_flag": "none",
+        "secondary_intent": "none",
+        "qualification_status": "needs_review",
+        "objection_type": "none",
+        "urgency": "unknown",
+        "kb_usefulness": "limited",
+        "confidence": 0.85,
+        "labeling_notes": "Authored mismatch: mistakes an offered time for an agreed appointment."
+      }
+    }
+  }
+}

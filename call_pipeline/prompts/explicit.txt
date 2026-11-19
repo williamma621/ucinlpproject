@@ -1,0 +1,18 @@
+Classify the call from explicit evidence. Distinguish the customer's goal from
+what actually happened. A request for help does not mean a consultation was booked.
+Use consultation_scheduled only when both parties agreed on a consultation time;
+an unanswered offer or an ordinary callback is follow_up_needed.
+A stop-contact request takes priority over an earlier sales inquiry for both
+primary_intent and call_outcome. Keep the earlier inquiry as secondary_intent.
+Do not infer eligibility from a dollar amount. Use needs_review for potential
+service requests, existing_customer for an explicit existing case, otherwise
+not_applicable or unknown as the taxonomy describes.
+Unknown urgency is preferable to guessing. Use neutral sentiment if wording
+does not support another label. Text does not preserve audio tone.
+Choose one compliance_flag: prioritize a do_not_contact request, then a guarantee,
+individualized tax advice, coercion, and finally transcription problems.
+PII detection is handled separately; redaction placeholders are not compliance flags.
+Use a lower confidence for ambiguous or incomplete calls. This is a subjective
+estimate, not a probability calibrated against real outcomes.
+Notes must explain the decision in at most two short sentences without identifiers.
+

@@ -1,0 +1,101 @@
+{
+  "provenance": "Authored synthetic reference labels; not independently reviewed ground truth",
+  "labels": {
+    "call_001": {
+      "primary_intent": "tax_debt_help",
+      "call_outcome": "consultation_scheduled",
+      "customer_sentiment": "positive",
+      "compliance_flag": "none"
+    },
+    "call_002": {
+      "primary_intent": "pricing",
+      "call_outcome": "information_provided",
+      "customer_sentiment": "anxious",
+      "compliance_flag": "none"
+    },
+    "call_003": {
+      "primary_intent": "legitimacy",
+      "call_outcome": "follow_up_needed",
+      "customer_sentiment": "negative",
+      "compliance_flag": "none"
+    },
+    "call_004": {
+      "primary_intent": "do_not_contact",
+      "call_outcome": "do_not_contact",
+      "customer_sentiment": "angry",
+      "compliance_flag": "do_not_contact_request"
+    },
+    "call_005": {
+      "primary_intent": "wrong_number",
+      "call_outcome": "wrong_number",
+      "customer_sentiment": "neutral",
+      "compliance_flag": "none"
+    },
+    "call_006": {
+      "primary_intent": "case_status",
+      "call_outcome": "follow_up_needed",
+      "customer_sentiment": "neutral",
+      "compliance_flag": "none"
+    },
+    "call_007": {
+      "primary_intent": "tax_debt_help",
+      "call_outcome": "follow_up_needed",
+      "customer_sentiment": "anxious",
+      "compliance_flag": "none"
+    },
+    "call_008": {
+      "primary_intent": "tax_debt_help",
+      "call_outcome": "declined",
+      "customer_sentiment": "neutral",
+      "compliance_flag": "none"
+    },
+    "call_009": {
+      "primary_intent": "tax_debt_help",
+      "call_outcome": "follow_up_needed",
+      "customer_sentiment": "neutral",
+      "compliance_flag": "none"
+    },
+    "call_010": {
+      "primary_intent": "unknown",
+      "call_outcome": "unresolved",
+      "customer_sentiment": "neutral",
+      "compliance_flag": "bad_audio"
+    },
+    "call_011": {
+      "primary_intent": "tax_debt_help",
+      "call_outcome": "follow_up_needed",
+      "customer_sentiment": "positive",
+      "compliance_flag": "promise_or_guarantee"
+    },
+    "call_012": {
+      "primary_intent": "tax_debt_help",
+      "call_outcome": "information_provided",
+      "customer_sentiment": "neutral",
+      "compliance_flag": "none"
+    },
+    "call_013": {
+      "primary_intent": "tax_debt_help",
+      "call_outcome": "follow_up_needed",
+      "customer_sentiment": "neutral",
+      "compliance_flag": "none"
+    },
+    "call_014": {
+      "primary_intent": "do_not_contact",
+      "call_outcome": "do_not_contact",
+      "customer_sentiment": "negative",
+      "compliance_flag": "do_not_contact_request"
+    },
+    "call_015": {
+      "primary_intent": "tax_debt_help",
+      "call_outcome": "follow_up_needed",
+      "customer_sentiment": "neutral",
+      "compliance_flag": "none"
+    },
+    "call_016": {
+      "primary_intent": "tax_debt_help",
+      "call_outcome": "follow_up_needed",
+      "customer_sentiment": "neutral",
+      "compliance_flag": "none"
+    }
+  }
+}

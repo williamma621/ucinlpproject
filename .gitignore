@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+outputs/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+credentials*.json
+service-account*.json
+

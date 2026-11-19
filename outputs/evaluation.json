@@ -1,0 +1,54 @@
+{
+  "mode": "fixture",
+  "notice": "Synthetic reference set; fixture scores test the harness, not Gemini quality.",
+  "total": 16,
+  "reference_matched": 16,
+  "scored": 16,
+  "reference_coverage": 1.0,
+  "valid_response_rate": 1.0,
+  "invalid_response_count": 0,
+  "fresh_calls": 16,
+  "median_fresh_latency_ms": 0.2515,
+  "successful_attempt_input_tokens": 0,
+  "successful_attempt_output_tokens": 0,
+  "scores": {
+    "primary_intent": {
+      "correct": 16,
+      "scored": 16,
+      "accuracy_on_valid": 1.0,
+      "accuracy_including_failures": 1.0
+    },
+    "call_outcome": {
+      "correct": 15,
+      "scored": 16,
+      "accuracy_on_valid": 0.9375,
+      "accuracy_including_failures": 0.9375
+    },
+    "customer_sentiment": {
+      "correct": 15,
+      "scored": 16,
+      "accuracy_on_valid": 0.9375,
+      "accuracy_including_failures": 0.9375
+    },
+    "compliance_flag": {
+      "correct": 16,
+      "scored": 16,
+      "accuracy_on_valid": 1.0,
+      "accuracy_including_failures": 1.0
+    }
+  },
+  "disagreements": [
+    {
+      "call_id": "call_016",
+      "field": "call_outcome",
+      "expected": "follow_up_needed",
+      "predicted": "consultation_scheduled"
+    },
+    {
+      "call_id": "call_012",
+      "field": "customer_sentiment",
+      "expected": "neutral",
+      "predicted": "confused"
+    }
+  ]
+}
